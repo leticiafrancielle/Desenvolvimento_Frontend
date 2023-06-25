@@ -1,0 +1,18 @@
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: slateblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+a :hover {
+    font-size: 21px;
+    transition: 5s ease-in-out;
+    color: rgb(241,8, 55);
+}
