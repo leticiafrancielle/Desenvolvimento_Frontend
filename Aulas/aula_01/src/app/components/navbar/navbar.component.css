@@ -1,18 +1,18 @@
-ul {
-    display: flex;
-    flex-direction: row;
-}
+.caixa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
 
+}
 a {
-    margin-right: 10px;
+    margin-right: 70px;
     text-decoration: none;
-    color: slateblue;
+    color: rgb(121, 8, 226);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
-a :hover {
-    font-size: 21px;
-    transition: 5s ease-in-out;
-    color: rgb(241,8, 55);
+.caixa :hover {
+  color: rgb(212, 0, 255);
 }
