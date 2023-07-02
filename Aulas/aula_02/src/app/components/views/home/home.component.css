@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.animais {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    border: 3px ridge black;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+
+.animais p {
+    margin: 5px;
+}

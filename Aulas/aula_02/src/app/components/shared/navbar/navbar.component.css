@@ -1,0 +1,18 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+} 
+
+ul a {
+    text-decoration: none;
+    margin: 5px;
+    color: brown;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 3ms;
+}
+
+ul a:hover {
+    font-size: 32px;
+}
