@@ -1,0 +1,18 @@
+.caixa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+
+}
+a {
+    margin-right: 70px;
+    text-decoration: none;
+    color: rgb(121, 8, 226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.caixa :hover {
+  color: rgb(212, 0, 255);
+}

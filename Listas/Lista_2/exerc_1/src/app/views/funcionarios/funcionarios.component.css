@@ -1,0 +1,64 @@
+.gestor-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.gestor span {
+  font-weight: bold;
+}
+
+.gestor {
+  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 30px;
+  background-color:  rgb(212, 132, 206);
+  height: 150px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sub {
+  font-weight: bold;
+}
+
+.sub-nomes{
+  margin-left: 60px;
+}
+
+.subordinados {
+  background-color:  rgb(212, 132, 206);
+  height: 150px;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-left: 30px;
+  border: 3px solid rgb(8, 1, 1);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.analistas-wrapper {
+  margin-top: 20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.analistas {
+  background-color: rgb(197, 20, 220);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  margin-left: 5px;
+  border-radius: 10px;
+  border: 10px groove rgb(8, 8, 8);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.analistas span {
+  font-weight: bold;
+}
+
+.analistas p {
+  margin: 5px 0;
+}
