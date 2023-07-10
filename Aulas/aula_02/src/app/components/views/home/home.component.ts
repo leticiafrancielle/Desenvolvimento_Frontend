@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.animalService.getAnimais().subscribe((response) => {
       this.animais = response
-      console.log(this.animais)
+      console.log(response)
     });
   }
 
