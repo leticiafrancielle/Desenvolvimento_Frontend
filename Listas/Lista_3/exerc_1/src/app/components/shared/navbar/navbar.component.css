@@ -1,0 +1,20 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px 50px 100px;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: 5px;
+  color: rgb(200, 89, 10);
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: 3ms linear;
+}
+
+.menu a:hover {
+  font-size: 32px;
+  color: black;
+}
