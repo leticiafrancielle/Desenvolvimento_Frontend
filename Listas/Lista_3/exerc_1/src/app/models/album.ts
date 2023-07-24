@@ -1,13 +1,15 @@
 export default class Album {
-  nome: string;
-  cantor: string;
-  estilo: string;
-  imagem: string;
+  public id: number;
+  public nome: string;
+  public cantor: string;
+  public imagem: string;
+  public emoji: string;
 
-  constructor(nome: string, cantor: string, estilo: string, imagem: string){
+  constructor(id: number, nome: string, cantor: string, imagem: string, emoji: string){
+    this.id = id;
     this.nome = nome;
     this.cantor = cantor;
-    this.estilo = estilo;
     this.imagem = imagem;
+    this.emoji = emoji;
   }
 }
