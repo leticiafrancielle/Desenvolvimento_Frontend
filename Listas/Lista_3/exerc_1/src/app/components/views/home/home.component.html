@@ -1,7 +1,13 @@
-<div class="main">
-  <div class="albuns" *ngFor="let album of albuns">
-    <img [src]="album.imagem"/>
-  <p>{{ album.nome }}</p>
-  <p>{{ album.estilo}}</p>
+<div class="container d-flex justify-content-center">
+  <div class="row" *ngFor="let album of albuns">
+    
+<div class="card ml-5 mr-5 " style="width: 18rem;">
+  <img class="card-img-top" src="{{ album.imagem }}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{ album.nome }}</h5>
+    <p class="card-text ">{{ album.cantor }}</p>
+    <h2 class="heart d-flex justify-content-center">{{ album.emoji }}</h2>
+  </div>
+</div>
   </div>
 </div>
