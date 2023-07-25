@@ -1,0 +1,25 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.animais {
+    width: 300px;
+    flex-wrap: wrap;
+    border: 7px ridge black;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    background-color: rgb(3, 10, 7);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 20px black;
+}
+
+.animais p {
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
