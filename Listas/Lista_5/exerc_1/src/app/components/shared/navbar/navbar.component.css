@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.menu:hover {
+    color: rgb(136, 23, 241);
+}
