@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.pokemons {
+  align-items: center;
+  background-color: #d196f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-style: oblique;
+  color: #ffffff;
+  border-radius: 50%;
+  height: 200px;
+  margin: 10px;
+  width: 220px;
+  cursor: pointer;
+}
+
+.pokemons:hover { 
+  transform: scale(1.15);
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.pokemons img {
+  width: 130px;
+} 
