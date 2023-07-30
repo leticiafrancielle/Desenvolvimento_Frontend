@@ -1,0 +1,7 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(22, 0, 163);
+}

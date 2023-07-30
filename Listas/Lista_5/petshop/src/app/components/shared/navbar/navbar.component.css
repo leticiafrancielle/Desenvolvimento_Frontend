@@ -1,0 +1,24 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .menu a {
+    width: 300px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: #1016c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  .menu a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    opacity: inherit
+  }
+  

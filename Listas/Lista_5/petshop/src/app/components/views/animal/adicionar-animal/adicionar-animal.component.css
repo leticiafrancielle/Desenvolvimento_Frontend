@@ -1,0 +1,36 @@
+.adicionar-animal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  
+  .adicionar-animal input, button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(164, 135, 177);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .adicionar-animal button {
+    background-color: rgb(100, 22, 172);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  .adicionar-animal button:hover {
+    transition: 0.9s ease-in-out;
+    background: #a874c0;
+    color: white;
+  }
+  
