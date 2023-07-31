@@ -7,10 +7,15 @@ import { Animal } from '../models/animal';
   providedIn: 'root'
 })
 export class AnimalService {
+  private rota: string = "http://localhost:8700/listar-animais"
 
-  constructor(private http: HttpClient) {}
+  constructor(private httpClient: HttpClient) {}
 
   getAnimais(): Observable<Animal[]> {
-    return this.http.get<Animal[]>("http://localhost:8700/listar-animais")
+    return this.httpClient.get<Animal[]>(this.rota)
+  }
+
+  public postAnimal(animal: Animal): Observable<Animal> {
+    return this.httpClient.post<Animal>(this.rota, animal)
   }
 }

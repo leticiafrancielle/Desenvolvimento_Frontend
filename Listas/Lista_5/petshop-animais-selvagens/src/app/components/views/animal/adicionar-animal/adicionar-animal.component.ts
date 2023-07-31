@@ -12,7 +12,7 @@ export class AdicionarAnimalComponent {
   public peso!: number;
   public imagem!: string;
 
-  public adicionarAnimal(){
+  public adicionarAnimal() {
     let animal = new Animal(this.nome, this.raca, this.peso, this.imagem);
     console.log(animal);
   }
