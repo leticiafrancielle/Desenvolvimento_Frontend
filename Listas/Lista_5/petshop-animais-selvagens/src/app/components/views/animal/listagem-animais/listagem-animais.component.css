@@ -1,0 +1,32 @@
+.container {
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(85, 74, 74);
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
+  border: solid rgb(255, 255, 255);
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.card-img-top {
+  border-radius: 20px;
+  border: solid rgb(0, 0, 0);
+}
+
+.card-title {
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
