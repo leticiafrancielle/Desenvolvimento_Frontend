@@ -1,0 +1,11 @@
+.name {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    color: black;
+}
+
+.name:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+  }
+  
+  .menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    transition: 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+  }

@@ -1,0 +1,40 @@
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    margin: 30px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 22px 16px 22px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-body .btn {
+    margin-left: 30px;
+    background-color: rgb(201, 176, 224);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.card-body .btn:hover {
+    background-color: rgb(222, 228, 228);
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+}
+
+.card-text {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
