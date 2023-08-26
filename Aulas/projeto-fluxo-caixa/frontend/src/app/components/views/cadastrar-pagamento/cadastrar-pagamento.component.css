@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    margin: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input, select, button {
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #acaaaa;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form input {
+    width: 390px;
+    height: 20px;
+}
+.form select {
+    width: 390px;
+    height: 20px;
+}
+
+.form button {
+    width: 200px;
+    height: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: violet;
+    text-align: center;
+    border-radius: 5px;
+}

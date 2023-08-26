@@ -4,12 +4,14 @@ const app = express()
 const port = 8750
 const connectionString = "mongodb+srv://leticiafrancielle:teste123@appdatabase.sjsbjbi.mongodb.net/"
 const Pagamento = require('./models/pagamento')
+const cors = require('cors')
 
 app.use(express.json())
+app.use(cors())
 
 app.get("/listar-saldo-consolidado", async (req, res) => {
     try {
-        let dataReferencia = (req.query.data)
+        let dataReferencia = (req.query.dataReferencia)
 
         let pagamentos = await Pagamento.find({ dataPagamento: dataReferencia })
 

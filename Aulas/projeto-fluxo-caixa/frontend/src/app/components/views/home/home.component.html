@@ -1,0 +1,38 @@
+<app-toolbar [titulo]="'Fluxo de caixa'"></app-toolbar>
+
+<div class="buscar-por-data">
+  <input type="date" [(ngModel)]="dataReferencia">
+  <button (click)="buscarPagamentoSaldoConsolidado()">Pesquisar</button>
+</div>
+
+<div class="saldo-consolidado" *ngIf="pagamentosSaldoConsolidado">
+  <p>Saldo total do dia: R${{ pagamentosSaldoConsolidado.saldoTotalDia }}</p>
+</div>
+
+<table mat-table [dataSource]="pagamentosSaldoConsolidado != null ? pagamentosSaldoConsolidado.pagamentos : pagamentos" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="descricao">
+      <th mat-header-cell *matHeaderCellDef> Descrição </th>
+      <td mat-cell *matCellDef="let element"> {{ element.descricao }} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="valorPagamento">
+      <th mat-header-cell *matHeaderCellDef> Valor do pagamento </th>
+      <td mat-cell *matCellDef="let element"> {{ element.valorPagamento }} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="tipoPagamento">
+      <th mat-header-cell *matHeaderCellDef> Método de pagamento </th>
+      <td mat-cell *matCellDef="let element"> {{ element.tipoPagamento == 'C' ? 'Crédito' : 'Débito' }} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="dataPagamento">
+      <th mat-header-cell *matHeaderCellDef> Data do pagamento </th>
+      <td mat-cell *matCellDef="let element"> {{ element.dataPagamento }} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="colunas"></tr>
+    <tr mat-row *matRowDef="let row; columns: colunas;"></tr>
+  </table>
+  
+  

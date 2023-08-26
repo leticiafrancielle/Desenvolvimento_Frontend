@@ -1,0 +1,14 @@
+<app-toolbar [titulo]="'Cadastrar pagamento'"></app-toolbar>
+
+<div class="form">
+    <input type="text" [(ngModel)]="descricao" placeholder="Descrição do pagamento" required>
+    <input type="date" [(ngModel)]="dataPagamento" placeholder="Data do pagamento" required>
+    <select required [(ngModel)]="tipoPagamento">
+        <option selected="selected" disabled>Selecione uma opção</option>
+        <option value="C">Crédito</option>
+        <option value="D">Débito</option>
+    </select>
+    <input type="number" [(ngModel)]="valorPagamento" placeholder="Valor" required>
+
+    <button (click)="cadastrarPagamento()">Realizar pagamento</button>
+</div>

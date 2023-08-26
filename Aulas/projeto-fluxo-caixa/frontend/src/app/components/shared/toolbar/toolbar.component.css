@@ -1,0 +1,28 @@
+.tool {
+    background-color: rgb(37, 0, 71);
+}
+
+.titulo {
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    margin: 20px;
+    transition: .5s ease-in-out;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
